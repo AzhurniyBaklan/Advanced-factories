@@ -1,0 +1,60 @@
+{
+	"type": "GenericCrafter",
+	"size": 4,
+	"consumes": {
+		"liquids": {
+			"liquids": [
+				"oil/0.15"
+			]
+		},
+		"items": {
+			"items": [
+				"pyratite/5",
+				"spore-pod/3"
+			]
+		},
+		"power": 4
+	},
+	"requirements": [
+		"metaglass/200",
+		"silicon/150",
+		"titanium/200",
+		"thorium/200"
+	],
+	"outputItem": "blast-compound/5",
+	"hasItems": true,
+	"hasPower": true,
+	"craftTime": 60,
+	"research": "blast-mixer",
+	"category": "crafting",
+	"hasPower": true,
+	"hasLiquids": true,
+	"itemCapacity": 30,
+	"drawer": [
+		{
+			"type": "DrawMulti"
+		},
+		{
+			"type": "DrawRegion",
+			"suffix": "-bottom"
+		},
+		{
+			"type": "DrawParticles",
+			"color": "ff720d",
+			"alpha": 0.5,
+			"particles": 30,
+			"particleLife": 12,
+			"particleRad": 7,
+			"particleSize": 1,
+			"fadeMargin": 0.4,
+			"rotateScl": 6,
+			"reverse": true
+		},
+		{
+			"type": "DrawBlurSpin",
+			"suffix": "-top",
+			"blurThresh": 0.4,
+			"rotateSpeed": 70
+		}
+	]
+}

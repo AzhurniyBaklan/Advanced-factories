@@ -1,0 +1,56 @@
+{
+	"type": "BurstDrill",
+	"size": 6,
+	"requirements": [
+		"surge-alloy/700",
+		"phase-fabric/500",
+		"plastanium/500",
+		"thorium/450",
+		"silicon/700",
+		"metaglass/500"
+	],
+	"hasItems": true,
+	"hasLiquids": true,
+	"hasPower": true,
+	"drillTime": 90,
+	"category": "production",
+	"research": "blast-drill",
+	"arrows": 2,
+	"arrowOffset": 4,
+	"arrowSpacing": 8,
+	"baseArrowColor": "989aa4",
+	"arrows": 2,
+	"tier": 8,
+	"shake": 2,
+	"consumes": {
+		"liquids": {
+			"liquids": [
+				"cryofluid/0.3"
+			]
+		},
+		"power": 12
+	},
+	"itemCapacity": 250,
+	"liquidCapacity": 36,
+	"drillEffect": {
+		"type": "MultiEffect",
+		"effects": [
+			{
+				"craftEffect": "mineImpact"
+			},
+			{
+				"craftEffect": "drillSteam"
+			},
+			{
+				"craftEffect": "dynamicSpikes",
+				"color": "ff795e",
+				"alpha": 0.4
+			},
+			{
+				"craftEffect": "mineImpactWave",
+				"color": "ff795e",
+				"alpha": 0.45
+			}
+		]
+	}
+}

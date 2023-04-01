@@ -1,0 +1,81 @@
+{
+	"size": 5,
+	"type": "AttributeCrafter",
+	"attribute": "heat",
+	"boostScale": 0.25,
+	"requirements": [
+		"silicon/250",
+		"surge-alloy/150",
+		"plastanium/250",
+		"thorium/175",
+		"metaglass/175",
+		"lead/250"
+	],
+	"category": "crafting",
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 70,
+	"outputItem": "silicon/35",
+	"craftTime": 90,
+	"research": "silicon-crucible",
+	"consumes": {
+		"items": {
+			"items": [
+				"sand/24",
+				"coal/16",
+				"blast-compound/1",
+				"spore-pod/4"
+			]
+		},
+		"power": 16
+	},
+	"ambientSound": "smelter",
+	"ambientSoundVolume": 0.09,
+	"craftEffect": "blastExplosion",
+	"drawer": [
+		{
+			"type": "DrawMulti"
+		},
+		{
+			"type": "DrawRegion",
+			"suffix": "-bottom"
+		},
+		{
+			"type": "DrawFlame",
+			"suffix": "-top",
+			"lightRadius": 60,
+			"lightAlpha": 0.4,
+			"flameRadius": 4,
+			"flameRadiusIn": 1.5,
+			"flameRadiusScl": 7,
+			"flameRadiusMag": 2.6,
+			"flameRadiusInMag": 1.25
+		},
+		{
+			"type": "DrawBlurSpin",
+			"suffix": "-fan",
+			"blurThresh": 0.4,
+			"rotateSpeed": 40
+		},
+		{
+			"type": "DrawRegion",
+			"suffix": "-block"
+		},
+		{
+			"type": "DrawArcSmelt",
+			"flameRad": 3,
+			"circleSpace": 2.5,
+			"flameRadiusScl": 3.5,
+			"flameRadiusMag": 0.3,
+			"circleStroke": 1,
+			"alpha": 0.6,
+			"particles": 25,
+			"particleLife": 45,
+			"particleRad": 7,
+			"particleStroke": 1.2,
+			"particleLen": 3,
+			"drawCenter": false
+		}
+	]
+}

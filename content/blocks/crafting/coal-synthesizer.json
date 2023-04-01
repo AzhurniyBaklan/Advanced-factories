@@ -1,0 +1,72 @@
+{
+	"type": "GenericCrafter",
+	"size": 4,
+	"hasLiquids": true,
+	"consumes": {
+		"liquids": {
+			"liquids": [
+				"oil/0.3",
+				"cryofluid/0.1"
+			]
+		},
+		"power": 3
+	},
+	"outputItem": "coal/6",
+	"craftTime": 30,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"liquidCapacity": 20,
+	"itemCapacity": 30,
+	"drawer": [
+		{
+			"type": "DrawMulti"
+		},
+		{
+			"type": "DrawRegion",
+			"suffix": "-bottom"
+		},
+		{
+			"type": "DrawBlurSpin",
+			"suffix": "-rings",
+			"blurThresh": 0.45,
+			"rotateSpeed": 80
+		},
+		{
+			"type": "DrawParticles",
+			"color": "6b706f",
+			"alpha": 0.3,
+			"particles": 20,
+			"particleLife": 30,
+			"particleRad": 10,
+			"particleSize": 0.5,
+			"fadeMargin": 0.5,
+			"rotateScl": 5,
+			"reverse": true
+		},
+		{
+			"type": "DrawParticles",
+			"color": "#404242",
+			"alpha": 0.45,
+			"particles": 5,
+			"particleLife": 40,
+			"particleRad": 15,
+			"particleSize": 2,
+			"fadeMargin": 0.5,
+			"rotateScl": 7,
+			"reverse": true
+		},
+		{
+			"type": "DrawRegion",
+			"suffix": "-top"
+		}
+	],
+	"requirements": [
+		"metaglass/150",
+		"plastanium/200",
+		"silicon/130",
+		"lead/200"
+	],
+	"research": "coal-centrifuge",
+	"category": "crafting"
+}

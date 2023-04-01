@@ -1,0 +1,68 @@
+{
+	"type": "GenericCrafter",
+	"size": 4,
+	"requirements": 
+	[
+		"titanium/250",
+		"plastanium/200",
+		"surge-alloy/75",
+		"metaglass/200",
+		"silicon/250"
+	],
+	"research": "plastanium-compressor",
+	"consumes": {
+		"liquids": {
+			"liquids": [
+				"oil/0.75",
+				"cryofluid/0.25"
+			]
+		},
+		"items": {
+			"items": [
+				"titanium/8"
+			]
+		},
+		"power": 9
+	},
+	"outputItem": "plastanium/4",
+	"craftTime": 60,
+	"category": "crafting",
+	"itemCapacity": 20,
+	"liquidCapacity": 90,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftEffect": "pulverizeMedium",
+	"drawer": [
+		{
+			"type": "DrawMulti"
+		},
+		{
+			"type": "DrawRegion",
+			"suffix": "-bottom"
+		},
+		{
+			"type": "DrawPistons",
+			"sinMag": 1
+		},
+		{
+			"type": "DrawParticles",
+			"color": "#404242",
+			"alpha": 0.35,
+			"particles": 10,
+			"particleLife": 40,
+			"particleRad": 20,
+			"particleSize": 2,
+			"fadeMargin": 0.4,
+			"rotateScl": 6,
+			"reverse": true
+		},
+		{
+			"type": "DrawRegion",
+			"suffix": "-block"
+		},
+		{
+			"type": "DrawFade"
+		}
+	]
+}

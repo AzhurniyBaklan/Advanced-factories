@@ -1,0 +1,82 @@
+{
+	"type": "AttributeCrafter",
+	"size": 5,
+	"boostScale": 0.25,
+	"attribute": "heat",
+	"requirements": [
+		"surge-alloy/250",
+		"thorium/300",
+		"plastanium/250",
+		"silicon/250",
+		"phase-fabric/150",
+		"lead/300"
+	],
+	"research": "surge-smelter",
+	"craftTime": 75,
+	"outputItem": "surge-alloy/4",
+	"consumes": {
+		"items": {
+			"items": [
+				"lead/12",
+				"copper/9",
+				"titanium/6",
+				"silicon/9",
+				"blast-compound/2"
+			]
+		},
+		"liquids": {
+			"liquids": [
+				"cryofluid/0.25"
+			]
+		},
+		"power": 14
+	},
+	"ambientSound": "smelter",
+	"ambientSoundVolume": 0.09,
+	"category": "crafting",
+	"itemCapacity": 30,
+	"liquidCapacity": 0.5,
+	"hasPower": true,
+	"craftEffect": "blastExplosion",
+	"hasItems": true,
+	"hasLiquids": true,
+	"drawer": [
+		{
+			"type": "DrawMulti"
+		},
+		{
+			"type": "DrawRegion",
+			"suffix": "-block"
+		},
+		{
+			"type": "DrawFade",
+			"suffix": "-top2"
+		},
+		{
+			"type": "DrawFlame",
+			"suffix": "-top",
+			"lightRadius": 100,
+			"lightAlpha": 0.75,
+			"flameRadius": 5,
+			"flameRadiusIn": 1.75,
+			"flameRadiusScl": 6.5,
+			"flameRadiusMag": 2.4,
+			"flameRadiusInMag": 1
+		},
+		{
+			"type": "DrawArcSmelt",
+			"flameRad": 2,
+			"circleSpace": 3,
+			"flameRadiusScl": 4,
+			"flameRadiusMag": 0.2,
+			"circleStroke": 1,
+			"alpha": 0.7,
+			"particles": 20,
+			"particleLife": 30,
+			"particleRad": 8,
+			"particleStroke": 1.2,
+			"particleLen": 4,
+			"drawCenter": false
+		}
+	]
+}

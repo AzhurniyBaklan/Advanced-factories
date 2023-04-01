@@ -1,0 +1,84 @@
+{
+	"type": "AttributeCrafter",
+	"boostScale": 0.25,
+	"attribute": "heat",
+	"size": 4,
+	"hasLiquids": true,
+	"affinity": "heat",
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"liquidCapacity": 15,
+	"itemCapacity": 30,
+	"consumes": {
+		"liquids": {
+			"liquids": [
+				"slag/0.2"
+			]
+		},
+		"items": {
+			"items": [
+				"lead/4",
+				"sand/5"
+			]
+		},
+		"power": 4
+	},
+	"outputItem": "metaglass/5",
+	"craftTime": 30,
+	"research": "kiln",
+	"requirements": [
+		"metaglass/200",
+		"surge-alloy/25",
+		"titanium/150",
+		"graphite/200"
+	],
+	"ambientSound": "smelter",
+	"ambientSoundVolume": 0.08,
+	"craftEffect": "coalSmeltsmoke",
+	"drawer": [
+		{
+			"type": "DrawMulti"
+		},
+		{
+			"type": "DrawRegion",
+			"suffix": "-block"
+		},
+		{
+			"type": "DrawParticles",
+			"color": "6b706f",
+			"alpha": 0.3,
+			"particles": 20,
+			"particleLife": 30,
+			"particleRad": 10,
+			"particleSize": 0.5,
+			"fadeMargin": 0.5,
+			"rotateScl": 5,
+			"reverse": true
+		},
+		{
+			"type": "DrawParticles",
+			"color": "#404242",
+			"alpha": 0.45,
+			"particles": 5,
+			"particleLife": 40,
+			"particleRad": 15,
+			"particleSize": 2,
+			"fadeMargin": 0.5,
+			"rotateScl": 7,
+			"reverse": true
+		},
+		{
+			"type": "DrawFlame",
+			"color": "ffef99",
+			"lightRadius": 80,
+			"lightAlpha": 0.7,
+			"flameRadius": 4,
+			"flameRadiusIn": 2,
+			"flameRadiusScl": 6,
+			"flameRadiusMag": 2.2,
+			"flameRadiusInMag": 0.9
+		}
+	],
+	"category": "crafting"
+}

@@ -1,0 +1,52 @@
+{
+	"size": 4,
+	"type": "GenericCrafter",
+	"requirements": [
+		"silicon/200",
+		"graphite/200",
+		"plastanium/150",
+		"titanium/100"
+	],
+	"research": "pyratite-mixer",
+	"hasItems": true,
+	"hasLiquids": true,
+	"hasPower": true,
+	"itemCapacity": 30,
+	"category": "crafting",
+	"outputItem": "pyratite/5",
+	"craftTime": 80,
+	"consumes": {
+		"items": {
+			"items": [
+				"lead/10",
+				"sand/10",
+				"coal/5"
+			]
+		},
+		"liquids": {
+			"liquids": [
+				"water/0.2"
+			]
+		},
+		"power": 2.25
+	},
+	"drawer": [
+		{
+			"type": "DrawMulti"
+		},
+		{
+			"type": "DrawRegion",
+			"suffix": "-block"
+		},
+		{
+			"type": "DrawBlurSpin",
+			"suffix": "-fan",
+			"blurThresh": 0.35,
+			"rotateSpeed": 70
+		},
+		{
+			"type": "DrawRegion",
+			"suffix": "-top"
+		}
+	]
+}

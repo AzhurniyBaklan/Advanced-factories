@@ -1,0 +1,36 @@
+{
+	"type": "GenericCrafter",
+	"size": 5,
+	"requirements": [
+		"thorium/200",
+		"surge-alloy/125",
+		"metaglass/200",
+		"graphite/300",
+		"silicon/250",
+		"lead/250"
+	],
+	"craftTime": 30,
+	"outputItem": "graphite/9",
+	"category": "crafting",
+	"hasItems": true,
+	"hasPower": true,
+	"hasLiquids": true,
+	"liquidCapacity": 20,
+	"itemCapacity": 20, 
+	"consumes": {
+		"liquids": {
+			"liquids": [
+				"oil/0.1",
+				"water/0.3"
+			]
+		},
+		"items": {
+			"items": [
+				"coal/12"
+			]
+		},
+		"power": 6
+	},
+	"research": "multi-press",
+    "craftEffect": "pulverizeMedium"
+}
