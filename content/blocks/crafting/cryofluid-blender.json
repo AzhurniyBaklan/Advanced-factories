@@ -19,7 +19,7 @@
 				"water/1"
 			]
 		},
-		"power": 5
+		"power": 6
 	},
 	"research": "cryofluid-mixer",
 	"outputLiquid": "cryofluid/1",
