@@ -4,12 +4,12 @@
 	"attribute": "heat",
 	"boostScale": 0.25,
 	"requirements": [
-		"silicon/250",
+		"silicon/275",
 		"surge-alloy/150",
-		"plastanium/250",
-		"thorium/175",
+		"plastanium/175",
+		"thorium/200",
 		"metaglass/175",
-		"lead/250"
+		"graphite/200"
 	],
 	"category": "crafting",
 	"hasPower": true,
