@@ -65,7 +65,8 @@
 		"metaglass/150",
 		"plastanium/200",
 		"silicon/130",
-		"lead/200"
+		"lead/200",
+                "titanium/200"
 	],
 	"research": "coal-centrifuge",
 	"category": "crafting"
